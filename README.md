@@ -1,2 +1,73 @@
-# mobile-sales-powerbi
-Proyecto de análisis de ventas de dispositivos móviles en Power BI que abarca la limpieza, transformación, modelado y visualización de datos mediante Power Query y DAX, incluyendo KPIs, análisis MTD y comparación con el período del año anterior.
+# Dashboard de Ventas de Dispositivos Móviles | Power BI
+Repositorio orientado al desarrollo de un dashboard interactivo en Power BI para el análisis de un conjunto de datos de ventas de dispositivos móviles.
+
+El proyecto incluye las etapas de limpieza, transformación, modelado y visualización de datos mediante Power Query y DAX, con el objetivo de analizar el desempeño de las ventas a través de indicadores clave (KPIs), análisis temporal y visualizaciones interactivas.
+
+---
+
+## Objetivos del proyecto
+
+- Analizar el desempeño de las ventas mediante indicadores clave (KPIs)
+- Identificar tendencias y patrones en el comportamiento de las ventas
+- Analizar las ventas según diferentes dimensiones, como marca y ubicación
+- Comparar el rendimiento de las ventas con el mismo período del año anterior
+- Desarrollar un dashboard interactivo para facilitar el análisis de datos
+
+---
+
+## Tecnologías utilizadas
+
+- Power BI Desktop
+- Power Query
+- DAX
+
+---
+
+## Proceso desarrollado
+
+Durante el proyecto se realizaron las siguientes etapas:
+
+- Importación y limpieza de datos mediante Power Query
+- Transformación y preparación de los datos para el análisis
+- Creación de un calendario personalizado para el análisis temporal
+- Desarrollo del modelo de datos y sus relaciones
+- Creación de medidas DAX para el cálculo de KPIs
+- Desarrollo de visualizaciones para el análisis de ventas
+- Implementación de segmentadores, filtros e interacciones entre visualizaciones
+
+## Dashboard
+
+### Vista general
+
+![Dashboard Overview](images/dashboard.png)
+
+### Interactividad
+
+La información puede explorarse dinámicamente mediante segmentadores y filtros. En la siguiente vista se muestra el dashboard con el primer trimestre del año seleccionado y la marca Samsung como criterio de filtrado.
+
+![Interactive](images/interactivo.png)
+
+### Informe MTD
+
+La siguiente vista muestra la evolución diaria de las ventas mediante el análisis Month-to-Date (MTD) para agosto de 2022.
+
+![InformeMTD](images/informe_mtd.png)
+
+### Período año anterior
+
+Esta página permite comparar las ventas con el **mismo período del año anterior**, utilizando medidas DAX basadas en la función `SAMEPERIODLASTYEAR`.
+
+![Período año anteriorl](images/periodo_anterior.png)
+
+### Tabla y Datos
+
+![Tabla y Datosl](images/tabla.png)
+
+---
+
+## Archivos de proyecto
+
+- `Mobile Sales Dashboard.pbix` → Desarrollo completo del proyecto en Power BI.
+- `data/Mobile Sales Data.xlsx` → Conjunto de datos original utilizado como fuente.
+- `images/` → Capturas de las diferentes páginas del informe.
+- `README.md` → Documentación del proyecto.
