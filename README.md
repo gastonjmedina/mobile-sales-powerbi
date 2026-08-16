@@ -27,13 +27,33 @@ El proyecto incluye las etapas de limpieza, transformación, modelado y visualiz
 
 Durante el proyecto se realizaron las siguientes etapas:
 
-- Importación y limpieza de datos mediante Power Query
-- Transformación y preparación de los datos para el análisis
-- Creación de un calendario personalizado para el análisis temporal
-- Desarrollo del modelo de datos y sus relaciones
-- Creación de medidas DAX para el cálculo de KPIs
-- Desarrollo de visualizaciones para el análisis de ventas
-- Implementación de segmentadores, filtros e interacciones entre visualizaciones
+- **Importación y limpieza de datos mediante Power Query**
+
+  Se importó el archivo `Mobile Sales Data.xlsx` como fuente de datos y se realizó la preparación inicial de la información.
+
+- **Transformación y preparación de los datos**
+
+  Se realizaron diferentes transformaciones, incluyendo la estructuración de columnas, modificación de tipos de datos, reemplazo de valores y creación de nuevos campos.
+
+- **Creación de un calendario personalizado**
+
+  Se desarrolló una tabla calendario mediante una consulta en blanco, utilizada posteriormente para facilitar el análisis temporal.
+
+- **Desarrollo del modelo de datos y sus relaciones**
+
+  Se estableció la relación entre el calendario personalizado y la tabla principal de datos para permitir el análisis temporal mediante medidas DAX.
+
+- **Creación de medidas DAX y KPIs**
+
+  Se desarrollaron medidas DAX para obtener indicadores relevantes para el análisis del desempeño de las ventas.
+
+- **Desarrollo de visualizaciones**
+
+  Se desarrollaron tres páginas de análisis. La página **Dashboard** presenta una visión general del desempeño de las ventas mediante KPIs y diferentes visualizaciones. La página **Informe MTD** permite analizar la evolución de las ventas dentro de un período mensual. Finalmente, la página **Período año anterior** permite comparar los resultados con el mismo período del año anterior.
+
+- **Implementación de segmentadores, filtros e interacciones**
+
+  Se incorporaron segmentadores y filtros para facilitar el análisis según diferentes dimensiones, junto con la configuración de interacciones entre visualizaciones para controlar cómo responden los elementos del informe ante los filtros aplicados.
 
 ## Dashboard
 
