@@ -35,13 +35,9 @@ Durante el proyecto se realizaron las siguientes etapas:
 
   Se realizaron diferentes transformaciones, incluyendo la estructuración de columnas, modificación de tipos de datos, reemplazo de valores y creación de nuevos campos.
 
-- **Creación de un calendario personalizado**
+- **Creación de un calendario personalizado y sus relaciones**
 
-  Se desarrolló una tabla calendario mediante una consulta en blanco, utilizada posteriormente para facilitar el análisis temporal.
-
-- **Desarrollo del modelo de datos y sus relaciones**
-
-  Se estableció la relación entre el calendario personalizado y la tabla principal de datos para permitir el análisis temporal mediante medidas DAX.
+  Se creó un calendario personalizado y se estableció su relación con la tabla principal de datos, permitiendo realizar análisis temporales mediante medidas DAX y utilizar sus campos en diferentes gráficos del informe.
 
 - **Creación de medidas DAX y KPIs**
 
