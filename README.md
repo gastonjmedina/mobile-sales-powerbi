@@ -41,7 +41,7 @@ Durante el proyecto se realizaron las siguientes etapas:
 
 - **Creación de medidas DAX y KPIs**
 
-  Se desarrollaron medidas para el cálculo de indicadores relevantes y columnas calculadas para generar información adicional utilizada en el análisis y las visualizaciones.
+  Se desarrollaron medidas para obtener indicadores relevantes y columnas calculadas para generar información adicional utilizada en el análisis y las visualizaciones.
 
 - **Desarrollo de visualizaciones**
 
