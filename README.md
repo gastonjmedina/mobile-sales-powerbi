@@ -49,7 +49,8 @@ Durante el proyecto se realizaron las siguientes etapas:
 
 - **Desarrollo de visualizaciones**
 
-  Se desarrollaron tres páginas de análisis, utilizando diferentes tipos de gráficos según el objetivo de cada una. La página **Dashboard** presenta una visión general del desempeño de las ventas mediante KPIs, gráficos, mapas y otros recursos visuales. La página **Informe MTD** se centra en la evolución diaria de las ventas dentro de un período mensual, mientras que la página **Período año anterior** permite comparar los resultados con el mismo período del año anterior.
+  Se desarrollaron tres páginas de análisis, utilizando diferentes tipos de gráficos según el objetivo de cada una. La página **Dashboard** presenta una visión general del desempeño de las ventas mediante KPIs, gráficos, mapas y otros recursos visuales.
+  La página **Informe MTD** se centra en la evolución diaria de las ventas dentro de un período mensual, mientras que la página **Período año anterior** permite comparar los resultados con el mismo período del año anterior.
 
 - **Implementación de segmentadores, filtros e interacciones**
 
